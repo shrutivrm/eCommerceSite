@@ -1,0 +1,132 @@
+
+
+* {
+  box-sizing: border-box;
+}
+body{
+	margin-top: 40px;
+	margin-bottom: 50px;
+	margin-right: 50px;
+	margin-left: 50px;
+	background-color: rgb(82, 86, 89);
+	background-attachment: fixed;
+}
+.fullpage{
+	background-image: url("bg4.PNG"); 
+	height: auto;
+	width: 1250px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-width:100px;
+	object-fit:cover;
+	display:block;
+}
+
+.space{
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	overflow:hidden;
+}
+
+.topnav {
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  font-family:Times new roman;
+}
+.topnav-right {
+  float: right;
+}
+.button1{
+	background-color: purple; 
+	border: none;
+	color: white;
+	padding: 9px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	cursor: pointer;
+	border-radius: 8px;
+}
+.column{
+	float:left;
+	width:50%;
+	padding:10px;
+	height:auto;
+	padding-top:100px;
+}
+.column1{
+	float:left;
+	width:500px;
+	padding:10px;
+	height:auto;
+	padding-top:100px;
+}
+.column1 img{
+	border-radius:10px,;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1{
+	text-align:center;
+	font-size: 50px;
+}
+h4{
+	font-size:15px;
+	color:gray;
+	text-align:center;
+}
+.button2{
+	-ms-transform: translate(-50%, -50%);
+    transform: translate(10%,4%);
+	background-color:purple;
+	border:none;
+	color:white;
+	padding:10px;
+	text-align:center;
+	text-decoration:none;
+	font-size:15px;
+	border-radius:25px;
+	font-family:Sans-serif;
+}
+.text{
+	text-decoration:none;
+	color:rgb(0, 51, 153);
+	font-size:20px;
+}
+.images{
+	display:flex;
+}
+.line{
+	flex: 33.33%;
+	padding:5px;
+}
+.line h2{
+	text-align:center;
+	font-size:35px;
+}
+.line p{
+	text-align:center;
+	color:gray;
+	font-size: 15px;
+	text-indent:2em;
+}
+.line a{
+	color:blue;
+	text-align:center;
+	text-decoration:none;
+	font-size:15px;
+}
